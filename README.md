@@ -3,11 +3,7 @@
 1. Clone and install this repo:
 
 	`git clone https://github.com/Sarlor/vimrc.git ~/.`
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> ef231b9e7835654a5d3e9ebf0babbfbc8fcc5640
 	`mv ~/vimrc/.vimrc ~/.`
 
 2. Setup `vundle`:
@@ -93,13 +89,13 @@ All plugins are listed in file `bundles.vim` with detailed comments, just and pl
 * `nG` 		移至该文档的第n行  
 * `n+` 		下移n行  
 * `n-` 		上移n行 
- 
+
 * `{`		上一段(以空白行分割)
 * `}`		下一段(以空白行分割)
 * `[{`		跳到目前区块开头
 * `]}`		跳到目前区块结尾
 * `%`		跳到目前对应的括号上(使用各种括号)
- 
+
 * `x` 		删除游标所在字元  
 * `X`		删除游标前一字元 
 * `dw` 		从游标当前位置开始向后删除一个单词  
@@ -108,7 +104,7 @@ All plugins are listed in file `bundles.vim` with detailed comments, just and pl
 * `d$` 		从游标当前位置删除至行尾  
 * `dd` 		删除游标所在行  
 * `D` 		同d$
- 
+
 * `s` 		修改游标所在字元，修改完成后按Esc键结束  
 * `S` 		修改整行内容，修改完成后按Esc键结束 
 * `r` 		替换当前游标所在字元 
@@ -119,17 +115,17 @@ All plugins are listed in file `bundles.vim` with detailed comments, just and pl
 * `c0` 		修改行首至游标位置的内容  
 * `c$` 		修改游标位置至行尾的内容  
 * `~` 		游标所在字元大小写切换
- 
+
 * `nx` 		删除n个字元  
 * `ndd` 	删除n行  
 * `ns` 		修改n个字元 
- 
+
 * `u`		撤销上一指令的结果
- 
+
 * `"+y`		从vim复制到系统剪切板
 * `"+p`		表示从系统剪切板粘贴到vim
 * `"+d`		剪切
- 
+
 * `/字符串` 	从当前游标向后查找该字符串  
 * `?字符串` 	从当前游标向前查找该字符串  
 * `n` 		从当前游标向后查找下一个字符串  
@@ -138,9 +134,9 @@ All plugins are listed in file `bundles.vim` with detailed comments, just and pl
 * `*`		往后搜索目前游标所在的字
 * `fx`		在目前行往后搜索字元x
 * `gd`		跳到目前游标所在的字的定义位置(编程时用,跳到定义变量/函数的地方)
- 
+
 * `.`		重复上一条指令
- 
+
 * `Ctrl+f`	视窗下卷一页  
 * `Ctrl+b` 	视窗上卷一页    
 * `Ctrl+d` 	视窗下卷半页  
