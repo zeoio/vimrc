@@ -4,7 +4,7 @@
 
 	`git clone https://github.com/Sarlor/vimrc.git`
 
-	`mv ~/vimrc/.vimrc ~/.`
+	`mv vimrc/.vimrc ~/.`
 
 2. Setup `vundle`:
 
