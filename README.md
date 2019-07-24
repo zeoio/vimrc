@@ -2,7 +2,7 @@
 
 1. Clone and install this repo:
 
-	`git clone https://github.com/Sarlor/vimrc.git`
+	`git clone https://github.com/zeoio/vimrc.git`
 
 	`mv vimrc/.vimrc ~/.`
 
